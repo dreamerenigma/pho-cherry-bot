@@ -1,4 +1,4 @@
-const BASE_URL = 'https://your-render-app.onrender.com';
+const BASE_URL = 'https://pho-cherry-bot.onrender.com';
 
 export async function getMenu() {
     try {

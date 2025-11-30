@@ -6,9 +6,10 @@ const lang = tg.initDataUnsafe?.user?.language_code || "en";
 const menuContainer = document.getElementById("menu-container");
 const selected = [];
 
-fetch("https://8943187b-0f08-481c-a5e0-dfc0613d35e4.tunnel4.com/menu").then(res => {
-    return res.json();
-    })
+const BASE_URL = window.location.origin;
+
+fetch(`${BASE_URL}/menu`)
+    .then(res => res.json())
     .then(menu => {
         menuContainer.innerHTML = "";
         menu.forEach(item => {
