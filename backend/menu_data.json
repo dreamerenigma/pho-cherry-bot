@@ -1,0 +1,98 @@
+[
+  {
+    "name": { "en": "TOM YUM", "ru": "ТОМ ЯМ" },
+    "description": {
+      "en": "Chicken broth, rice, shrimp, squid, coconut milk, pineapple, mushrooms, lemongrass, lemon leaf, tomato.",
+      "ru": "Куриный бульон, рис, креветки, кальмары, кокосовое молоко, ананас, грибы, лемонграсс, лимонный лист, помидор."
+    },
+    "weight": [{ "value": "600", "unit": "г." }],
+    "price": 350,
+    "image": "/web/images/tom_yum.png"
+  },
+  {
+    "name": { "en": "BO SHOT VANG", "ru": "БО ШОТ ВАНГ" },
+    "description": {
+      "en": "Stewed beef, potatoes, carrots, green onions, cilantro, rice.",
+      "ru": "Тушеная говядина, картофель, морковь, зеленый лук, кинза, рис."
+    },
+    "weight": [{ "value": "600", "unit": "г." }],
+    "price": 390,
+    "image": "/web/images/bo_shot_vang.png"
+  },
+  {
+    "name": { "en": "RAMEN TOM", "ru": "РАМЭН ТОМ" },
+    "description": {
+      "en": "Chicken broth, rice noodles, shrimp, squid, coconut milk, pineapple, mushrooms, lemongrass, lemon leaf, tomato.",
+      "ru": "Куриный бульон, рисоваялапша, креветки, кальмары, кокосовое молоко, ананас, грибы, лемонграсс, лимонный лист, помидор."
+    },
+    "weight": [{ "value": "600", "unit": "г." }],
+    "price": 390,
+    "image": "/web/images/ramen_tom.png"
+  },
+  {
+    "name": { "en": "BUN HAI SHAN", "ru": "БУН ХАЙ ШАН" },
+    "description": {
+      "en": "Vermicelli, shrimp, squid, broth, onion, ginger, herbs.",
+      "ru": "Вермишель, креветки, кальмары, бульон, лук, имбирь, зелень."
+    },
+    "weight": [{ "value": "600", "unit": "г." }],
+    "price": 390,
+    "image": "/web/images/bun_hai_shan.png"
+  },
+  {
+    "name": { "en": "BUN KA", "ru": "БУН КА" },
+    "description": {
+      "en": "Vermicelli, fried fish, tomatoes, dill, broth, onions, herbs.",
+      "ru": "Вермишель, жаренная рыба, помидоры, укроп, бульон, лук, зелень."
+    },
+    "weight": [{ "value": "600", "unit": "г." }],
+    "price": 390,
+    "image": "/web/images/bun_ka.png"
+  },
+  {
+    "name": { "en": "BUN BO", "ru": "БУН БО" },
+    "description": {
+      "en": "Vermicelli, beef, beef broth, onion, ginger, herbs.",
+      "ru": "Вермишель, говядина, говяжий бульон, лук, имбирь, зелень."
+    },
+    "weight": [
+      { "value": "600", "unit": "г." },
+      { "value": "900", "unit": "г." }
+    ],
+    "price": 390,
+    "image": "/web/images/bun_bo.png"
+  },
+  {
+    "name": { "en": "BUN BO SHOT VANG", "ru": "БУН БО ШОТ ВАНГ" },
+    "description": {
+      "en": "Vermicelli, stewed beef, beef broth, onion, ginger, herbs.",
+      "ru": "Вермишель, тушеная говядина, говяжий бульон, лук, имбирь, зелень."
+    },
+    "weight": [{ "value": "800", "unit": "г." }],
+    "price": 390,
+    "image": "/web/images/bun_bo_shot_vang.png"
+  },
+  {
+    "name": { "en": "FO BO", "ru": "ФО БО" },
+    "description": {
+      "en": "Rice noodles, beef, beef broth, onion, ginger, herbs.",
+      "ru": "Рисовая лапша, говядина, говяжий бульон, лук, имбирь, зелень."
+    },
+    "weight": [
+      { "value": "600", "unit": "г." },
+      { "value": "900", "unit": "г." }
+    ],
+    "price": 390,
+    "image": "/web/images/fo_bo.png"
+  },
+  {
+    "name": { "en": "FO SHOT VANG", "ru": "ФО ШОТ ВАНГ" },
+    "description": {
+      "en": "Rice noodles, stewed beef, beef broth, onion, ginger, herbs.",
+      "ru": "Рисовая лапша, тушеная говядина, говяжий бульон, лук, имбирь, зелень."
+    },
+    "weight": [{ "value": "600", "unit": "г." }],
+    "price": 420,
+    "image": "/web/images/fo_shot_vang.png"
+  }
+]

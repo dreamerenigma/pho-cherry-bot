@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# VENV
+.venv_backend/
+.venv_bot/
+
+# Docker
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Keys
+.env

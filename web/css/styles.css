@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  padding: 0px 20px 0px 20px;
+  color: #000;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #1D2733;
+    color: #fff;
+  }
+}
+
+.menu-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 2fr));
+  gap: 20px;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+.menu-container::-webkit-scrollbar {
+  width: 6px;
+}
+.menu-container::-webkit-scrollbar-track {
+  background: transparent;
+}
+.menu-container::-webkit-scrollbar-thumb {
+  background-color: rgba(0,0,0,0.3);
+  border-radius: 0;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background: #fff;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  color: #000;
+}
+@media (prefers-color-scheme: dark) {
+  .item {
+    background: #161f27;
+    color: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+  }
+}
+.item-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.item img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.item-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.item-price {
+  color: #e91e63;
+  font-size: 16px;
+  margin: 5px 0 10px 0;
+}
+
+.btn {
+  background: #0088cc;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: auto;
+  height: 44px;
+}
+.btn:hover { 
+  background: #0074ad; 
+}

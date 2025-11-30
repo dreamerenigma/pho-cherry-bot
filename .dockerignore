@@ -1,0 +1,12 @@
+# VENV
+.venv_backend
+.venv_bot
+
+# Logs, temporary files
+*.log
+__pycache__/
+*.pyc
+
+# Git
+.git
+.gitignore
